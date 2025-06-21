@@ -7,7 +7,7 @@ import Mainfile from "@/components/page";
 import BlogList from "@/pages/blog";
 import Profile from "@/pages/profile/[id]";
 import About from "@/pages/about";
-import Home1 from "@/pages/index";
+
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
       <BlogList/>
       <Profile/>
       <About/>
-      <Home1/>
+    
     </div>
   );
 }
